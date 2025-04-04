@@ -1,0 +1,120 @@
+/* General Styles */
+body {
+    background-color: #222;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  /* Main Container */
+  .container {
+    padding: 40px 20px;
+    min-height: 100vh;
+  }
+  
+  /* Titles */
+  .title {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .section-title {
+    font-size: 24px;
+    margin: 30px 0 15px;
+  }
+  
+  /* Grid Layout */
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  /* Song Card */
+  .card {
+    background-color: #333;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .cover {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .song-title {
+    font-size: 16px;
+    margin: 10px 0;
+  }
+  
+  /* Buttons */
+  .play-button {
+    background-color: #1DB954;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 5px;
+  }
+  
+  .like-button {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .unlike-button {
+    background-color: #444;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Now Playing Section */
+  .now-playing {
+    margin-top: 30px;
+    background-color: #444;
+    padding: 15px;
+    border-radius: 10px;
+    display: inline-block;
+  }
+  
+  .audio {
+    width: 100%;
+    margin-top: 10px;
+  }
+  
+  /* Liked Songs */
+  .liked-container {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+  }
+  
+  .liked-card {
+    background-color: #555;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .no-liked {
+    font-size: 16px;
+    color: #bbb;
+  }
+  
